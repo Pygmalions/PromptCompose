@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <Version>0.0.1-development</Version>
+        <Title>Prompt Compose - Robotics</Title>
+        <Authors>Pygmalions</Authors>
+        <Description>Extension library for Prompt Compose, consiting of commonly used widgets in robotics.</Description>
+        <PackageTags>Prompt; LLM; AI; Robotics; Camera;</PackageTags>
+        <PackageProjectUrl>https://github.com/Pygmalions/PromptCompose</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/Pygmalions/PromptCompose</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="OpenCvSharp4" Version="4.10.0.20241108" />
+      <PackageReference Include="OpenCvSharp4.runtime.linux-arm" Version="4.10.0.20241107" />
+      <PackageReference Include="OpenCvSharp4.runtime.linux-x64" Version="4.10.0.20240717" />
+      <PackageReference Include="OpenCvSharp4.runtime.win" Version="4.10.0.20241108" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\PromptCompose\PromptCompose.csproj" />
+    </ItemGroup>
+
+</Project>
